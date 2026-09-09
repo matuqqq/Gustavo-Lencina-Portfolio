@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b0b0d" />
+    <meta
+      name="description"
+      content="Portfolio de Gustavo Encina: arte científico, ilustración, dirección creativa y producción de contenidos."
+    />
+    <meta property="og:title" content="Gustavo Encina — Arte que hace visible lo invisible" />
+    <meta
+      property="og:description"
+      content="Artista científico, creativo y productor de contenidos. Un archivo vivo de obra, territorio y experiencia."
+    />
+    <title>Gustavo Encina — Arte &amp; Creatividad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <div class="cursor-dot" aria-hidden="true"></div>
+    <div class="cursor-ring" aria-hidden="true"></div>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+    <header class="site-header" id="top">
+      <div class="header-inner">
+        <a class="brand" href="#inicio" aria-label="Gustavo Encina, volver al inicio">
+          <span class="brand-mark">GE</span>
+          <span class="brand-name"><span>Gustavo</span><span>Encina</span></span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Navegación principal">
+          <a href="#obras" data-nav-link>Obras</a>
+          <a href="#bio" data-nav-link>Bio</a>
+          <a href="#trayectoria" data-nav-link>Trayectoria</a>
+          <a href="#contacto" data-nav-link>Contacto</a>
+        </nav>
+
+        <div class="header-actions">
+          <span class="availability"><span class="availability-dot"></span>Disponible para proyectos</span>
+          <a class="header-cta" href="#contacto">
+            Hablemos
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M10 5l5 5-5 5" /></svg>
+          </a>
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+            <span class="visually-hidden">Abrir menú</span>
+            <span></span><span></span>
+          </button>
+        </div>
+      </div>
+
+      <nav class="mobile-menu" id="mobile-menu" aria-label="Navegación móvil">
+        <a href="#obras" data-nav-link>Obras <span>01</span></a>
+        <a href="#bio" data-nav-link>Bio <span>02</span></a>
+        <a href="#trayectoria" data-nav-link>Trayectoria <span>03</span></a>
+        <a href="#contacto" data-nav-link>Contacto <span>04</span></a>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <section class="hero section-pad" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-grid shell">
+          <div class="hero-copy" data-reveal>
+            <p class="eyebrow"><span></span>Arte · Ciencia · Territorio</p>
+            <h1 id="hero-title"><span>Gustavo</span><span class="hero-title-accent"><em>Encina</em></span></h1>
+            <p class="hero-lede">
+              Artista científico, creativo y productor de contenidos. Construyo imágenes y experiencias para que el conocimiento también pueda sentirse.
+            </p>
+            <div class="hero-actions-row">
+              <a class="button button-primary" href="#obras">
+                Entrar al archivo
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v12M5 10l5 5 5-5" /></svg>
+              </a>
+              <a class="text-link" href="#trayectoria">Ver recorrido <span>↘</span></a>
+            </div>
+            <div class="hero-facts" aria-label="Datos destacados">
+              <div><strong>20+</strong><span>años de oficio</span></div>
+              <div><strong>60+</strong><span>ilustraciones científicas</span></div>
+              <div><strong>01</strong><span>mirada entre arte y ciencia</span></div>
+            </div>
+          </div>
+
+          <div class="hero-stage" data-reveal data-delay="160">
+            <div class="hero-orbit hero-orbit-one" aria-hidden="true"></div>
+            <div class="hero-orbit hero-orbit-two" aria-hidden="true"></div>
+            <div class="hero-orbit-label hero-orbit-label-top">Buenos Aires<br />Argentina</div>
+            <div class="hero-orbit-label hero-orbit-label-bottom">Desde 2001<br />hasta el presente</div>
+            <div class="hero-portrait-wrap" data-parallax>
+              <img src="public/images/hero-source.webp" alt="Retrato en blanco y negro de Gustavo Encina" width="980" height="675" />
+              <div class="portrait-shade"></div>
+              <span class="portrait-note">Mirar también<br />es investigar.</span>
+            </div>
+            <div class="hero-stamp">GE<span>ARTE<br />VIVO</span></div>
+          </div>
+        </div>
+
+        <div class="hero-footer shell" data-reveal data-delay="240">
+          <span>Scroll para entrar</span>
+          <span class="hero-footer-line"></span>
+          <span>01 / 04</span>
+        </div>
+      </section>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>Paleoarte</span><i>✳</i><span>Dirección creativa</span><i>✳</i><span>Ilustración científica</span><i>✳</i><span>Experiencias</span><i>✳</i>
+          <span>Paleoarte</span><i>✳</i><span>Dirección creativa</span><i>✳</i><span>Ilustración científica</span><i>✳</i><span>Experiencias</span><i>✳</i>
+        </div>
+      </div>
+
+      <section class="statement section-pad" id="bio" aria-labelledby="statement-title">
+        <div class="section-heading shell" data-reveal>
+          <p class="section-index">01 / La mirada</p>
+          <p class="section-kicker">Del archivo a la experiencia</p>
+        </div>
+        <div class="statement-grid shell">
+          <h2 id="statement-title" data-reveal>
+            Un pie en el pasado.<br /><em>Otro en lo que todavía no existe.</em>
+          </h2>
+          <div class="statement-copy" data-reveal data-delay="120">
+            <p class="lead-copy">
+              La creatividad es el lenguaje que utiliza el inconsciente colectivo. Desde ahí trabajo entre la investigación, la memoria y la imaginación para volver cercano lo que parecía lejano.
+            </p>
+            <p>
+              Creo obras, museos, contenidos y mundos visuales que conectan a las personas con la naturaleza, la ciencia y las historias que todavía esperan ser contadas.
+            </p>
+            <a class="arrow-link" href="#contacto">¿Tenés una idea? <span>↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="capabilities section-pad" aria-labelledby="capabilities-title">
+        <div class="capabilities-grid shell">
+          <div class="capabilities-intro" data-reveal>
+            <p class="section-index">02 / El oficio</p>
+            <h2 id="capabilities-title">Ideas que se<br /><em>vuelven materia.</em></h2>
+            <p>Una práctica híbrida para proyectos que necesitan sensibilidad, rigor y una imagen imposible de olvidar.</p>
+          </div>
+          <div class="capabilities-list" data-reveal data-delay="120">
+            <div class="capability-row"><span>01</span><strong>Dirección creativa</strong><small>Concepto · relato · universo visual</small></div>
+            <div class="capability-row"><span>02</span><strong>Ilustración científica</strong><small>Fauna extinta · anatomía · reconstrucción</small></div>
+            <div class="capability-row"><span>03</span><strong>Museografía &amp; experiencias</strong><small>Exhibiciones · centros de visitantes · maquetas</small></div>
+            <div class="capability-row"><span>04</span><strong>Producción de contenidos</strong><small>Campañas · piezas editoriales · narrativas</small></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="works section-pad" id="obras" aria-labelledby="works-title">
+        <div class="works-header shell" data-reveal>
+          <div>
+            <p class="section-index">03 / El archivo</p>
+            <h2 id="works-title">Obras que<br /><em>abren preguntas.</em></h2>
+          </div>
+          <p class="works-intro">Una selección de ilustración, paleoarte, dirección de arte y piezas narrativas. Tocá una obra para verla en detalle.</p>
+        </div>
+
+        <div class="filter-bar shell" role="group" aria-label="Filtrar obras" data-reveal data-delay="100">
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">Todas <span>06</span></button>
+          <button class="filter-button" type="button" data-filter="ciencia" aria-pressed="false">Ciencia <span>02</span></button>
+          <button class="filter-button" type="button" data-filter="editorial" aria-pressed="false">Editorial <span>02</span></button>
+          <button class="filter-button" type="button" data-filter="escena" aria-pressed="false">Escena <span>02</span></button>
+        </div>
+
+        <div class="work-grid shell">
+          <button
+            class="work-card work-card-wide"
+            type="button"
+            data-category="escena"
+            data-title="El viaje de Maga"
+            data-type="Ilustración narrativa"
+            data-year="Pieza editorial"
+            data-description="Una imagen de viaje, cuidado y despedida. La ternura también puede ser una forma de construir mundos."
+            data-image="public/images/9d79ef2aa7430117.webp"
+            data-alt="Ilustración de un zorro anaranjado con alas sobre un fondo azul lleno de estrellas"
+            data-reveal
+          >
+            <figure><img src="public/images/9d79ef2aa7430117.webp" alt="Ilustración de un zorro anaranjado con alas sobre un fondo azul lleno de estrellas" width="600" height="600" loading="lazy" /><span class="work-index">01</span><span class="work-open">Abrir pieza <b>↗</b></span></figure>
+            <span class="work-caption"><strong>El viaje de Maga</strong><small>Ilustración narrativa · Editorial</small></span>
+          </button>
+
+          <button
+            class="work-card work-card-tall"
+            type="button"
+            data-category="ciencia"
+            data-title="Fauna extinta"
+            data-type="Paleoarte"
+            data-year="Reconstrucción visual"
+            data-description="La reconstrucción de una escena extinta: precisión científica, atmósfera y una escala capaz de devolverle presencia a lo que ya no está."
+            data-image="public/images/99f2684bfa07ff96.webp"
+            data-alt="Reconstrucción de dinosaurios en un paisaje dorado"
+            data-reveal
+            data-delay="80"
+          >
+            <figure><img src="public/images/99f2684bfa07ff96.webp" alt="Reconstrucción de dinosaurios en un paisaje dorado" width="600" height="586" loading="lazy" /><span class="work-index">02</span><span class="work-open">Abrir pieza <b>↗</b></span></figure>
+            <span class="work-caption"><strong>Fauna extinta</strong><small>Paleoarte · Reconstrucción</small></span>
+          </button>
+
+          <button
+            class="work-card work-card-standard"
+            type="button"
+            data-category="editorial"
+            data-title="El Principito"
+            data-type="Ilustración infantil"
+            data-year="Edición ilustrada"
+            data-description="Color, vínculo y una narrativa que se entiende antes de ser explicada. Una pieza pensada para abrir una puerta emocional."
+            data-image="public/images/01e80da451c602d5.webp"
+            data-alt="Ilustración de una niña abrazando a un zorro anaranjado"
+            data-reveal
+            data-delay="160"
+          >
+            <figure><img src="public/images/01e80da451c602d5.webp" alt="Ilustración de una niña abrazando a un zorro anaranjado" width="600" height="568" loading="lazy" /><span class="work-index">03</span><span class="work-open">Abrir pieza <b>↗</b></span></figure>
+            <span class="work-caption"><strong>El Principito</strong><small>Ilustración infantil · Editorial</small></span>
+          </button>
+
+          <button
+            class="work-card work-card-standard"
+            type="button"
+            data-category="ciencia"
+            data-title="Códigos de la memoria"
+            data-type="Ilustración simbólica"
+            data-year="Estudio de lenguaje visual"
+            data-description="Una figura construida con líneas, símbolos y ritmo. El dibujo como una forma de conservar aquello que no entra en un catálogo."
+            data-image="public/images/e25e6adbb7e9f1b4.webp"
+            data-alt="Dibujo de criaturas geométricas blancas sobre fondo negro"
+            data-reveal
+            data-delay="80"
+          >
+            <figure><img src="public/images/e25e6adbb7e9f1b4.webp" alt="Dibujo de criaturas geométricas blancas sobre fondo negro" width="600" height="600" loading="lazy" /><span class="work-index">04</span><span class="work-open">Abrir pieza <b>↗</b></span></figure>
+            <span class="work-caption"><strong>Códigos de la memoria</strong><small>Ilustración simbólica · Estudio</small></span>
+          </button>
+
+          <button
+            class="work-card work-card-tall"
+            type="button"
+            data-category="escena"
+            data-title="Ritual y territorio"
+            data-type="Dirección de arte"
+            data-year="Pieza audiovisual"
+            data-description="Una escena donde la luz, el cuerpo y el territorio construyen una experiencia antes de que aparezca cualquier palabra."
+            data-image="public/images/64f930a16aad390a.webp"
+            data-alt="Figura en escena con iluminación azul y magenta"
+            data-reveal
+            data-delay="160"
+          >
+            <figure><img src="public/images/64f930a16aad390a.webp" alt="Figura en escena con iluminación azul y magenta" width="600" height="600" loading="lazy" /><span class="work-index">05</span><span class="work-open">Abrir pieza <b>↗</b></span></figure>
+            <span class="work-caption"><strong>Ritual y territorio</strong><small>Dirección de arte · Escena</small></span>
+          </button>
+
+          <button
+            class="work-card work-card-wide"
+            type="button"
+            data-category="editorial"
+            data-title="Máscaras del tiempo"
+            data-type="Diseño de personajes"
+            data-year="Serie experimental"
+            data-description="Una criatura entre lo humano y lo animal, trazada con una economía de líneas que deja espacio para que aparezca la imaginación."
+            data-image="public/images/e24abb8d01e8d184.webp"
+            data-alt="Figura antropomórfica dibujada en líneas naranjas sobre fondo negro"
+            data-reveal
+            data-delay="100"
+          >
+            <figure><img src="public/images/e24abb8d01e8d184.webp" alt="Figura antropomórfica dibujada en líneas naranjas sobre fondo negro" width="600" height="600" loading="lazy" /><span class="work-index">06</span><span class="work-open">Abrir pieza <b>↗</b></span></figure>
+            <span class="work-caption"><strong>Máscaras del tiempo</strong><small>Diseño de personajes · Serie</small></span>
+          </button>
+        </div>
+      </section>
+
+      <section class="quote-section section-pad" aria-labelledby="quote-title">
+        <div class="quote-inner shell" data-reveal>
+          <span class="quote-mark">“</span>
+          <blockquote id="quote-title">Un artista comprometido en exhibir la amenazante intervención humana en la naturaleza. En buscar y rescatar del anonimato a las especies extintas...</blockquote>
+          <div class="quote-attribution"><span></span><p><strong>Dr. Adrián Giacchino</strong><small>Fundación Azara · Fundación Científica Felipe Fiorellino · Universidad Maimónides</small></p></div>
+        </div>
+      </section>
+
+      <section class="trajectory section-pad" id="trayectoria" aria-labelledby="trajectory-title">
+        <div class="trajectory-header shell" data-reveal>
+          <div><p class="section-index">04 / El recorrido</p><h2 id="trajectory-title">Una trayectoria<br /><em>en movimiento.</em></h2></div>
+          <p>Más de dos décadas trabajando entre instituciones, museos, editoriales y proyectos que acercan la ciencia a nuevas audiencias.</p>
+        </div>
+        <div class="timeline shell" data-reveal data-delay="120">
+          <button class="timeline-card is-active" type="button" data-timeline="tecnopolis" aria-pressed="true"><span>2013—2024</span><strong>Tecnópolis</strong><small>Paleo artista · Director artístico · Coordinador · Productor</small></button>
+          <button class="timeline-card" type="button" data-timeline="azara" aria-pressed="false"><span>2005—2012</span><strong>Fundación Azara</strong><small>Réplicas, fauna extinta y montaje de museos</small></button>
+          <button class="timeline-card" type="button" data-timeline="zaragoza" aria-pressed="false"><span>2015—2016</span><strong>España</strong><small>Universidad de Zaragoza · Paleoymas · Canarias</small></button>
+          <button class="timeline-card" type="button" data-timeline="mef" aria-pressed="false"><span>2024</span><strong>MEF · Trelew</strong><small>Más de 60 ilustraciones científicas para el nuevo museo</small></button>
+        </div>
+        <div class="timeline-detail shell" id="timeline-detail" aria-live="polite" data-reveal data-delay="180">
+          <span class="timeline-detail-number">01</span>
+          <div><p class="timeline-detail-label">El trabajo que conecta todas las piezas</p><h3>Tecnópolis y las muestras de ciencia</h3><p>Dirección artística, coordinación y producción para llevar ciencia, tecnología y curiosidad a Buenos Aires y a distintas provincias argentinas.</p></div>
+          <span class="timeline-detail-arrow">↗</span>
+        </div>
+      </section>
+
+      <section class="contact section-pad" id="contacto" aria-labelledby="contact-title">
+        <div class="contact-shell shell">
+          <div class="contact-visual" data-reveal>
+            <img src="public/images/contact-source.webp" alt="Ilustración de criaturas geométricas sobre fondo negro" width="980" height="845" loading="lazy" />
+            <div class="contact-visual-copy"><span>¿Qué podemos<br /><em>hacer visible?</em></span><small>Gustavo Encina · Arte &amp; Creatividad</small></div>
+          </div>
+          <div class="contact-copy" data-reveal data-delay="120">
+            <p class="section-index">05 / El próximo proyecto</p>
+            <h2 id="contact-title">Hagamos algo<br /><em>que deje huella.</em></h2>
+            <p>Si estás armando una muestra, un libro, una campaña o una experiencia que necesite una mirada distinta, contame qué tenés en mente.</p>
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="form-row">
+                <label>Tu nombre<input type="text" name="name" autocomplete="name" required /></label>
+                <label>Tu email<input type="email" name="email" autocomplete="email" required /></label>
+              </div>
+              <label>¿Qué estás imaginando?<textarea name="message" rows="4" required></textarea></label>
+              <div class="form-footer">
+                <button class="button button-accent" type="submit">Preparar mensaje <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M10 5l5 5-5 5" /></svg></button>
+                <p class="form-note" id="form-note">El brief se prepara acá para que la próxima conversación empiece con una idea clara.</p>
+              </div>
+              <p class="form-success" id="form-success" role="status" hidden></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner shell">
+        <div><a class="footer-brand" href="#inicio">Gustavo <em>Encina</em></a><p>Arte científico · Creatividad · Producción</p></div>
+        <div class="footer-links"><a href="#obras">Obras</a><a href="#bio">Bio</a><a href="#trayectoria">Trayectoria</a><a href="#contacto">Contacto</a></div>
+        <a class="back-top" href="#top" aria-label="Volver arriba">Volver arriba <span>↑</span></a>
+      </div>
+      <div class="footer-bottom shell"><span>© <span id="current-year"></span> Gustavo Encina</span><span>Hecho para seguir imaginando</span></div>
+    </footer>
+
+    <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-shell">
+        <button class="dialog-close" type="button" aria-label="Cerrar detalle"><span>×</span></button>
+        <div class="dialog-image"><img id="dialog-image" src="" alt="" width="600" height="600" /></div>
+        <div class="dialog-copy">
+          <div class="dialog-topline"><span id="dialog-type"></span><span id="dialog-year"></span></div>
+          <h2 id="dialog-title"></h2>
+          <p id="dialog-description"></p>
+          <div class="dialog-nav"><button type="button" id="dialog-prev">← Anterior</button><span id="dialog-count"></span><button type="button" id="dialog-next">Siguiente →</button></div>
+        </div>
+      </div>
+    </dialog>
+
+    <a
+      class="whatsapp-float"
+      href="https://wa.me/5491132769428?text=Hola%20Gustavo%2C%20vi%20tu%20portfolio%20y%20me%20gustar%C3%ADa%20hablar%20sobre%20un%20proyecto."
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Escribirle a Gustavo por WhatsApp"
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.91 11.91 0 0 0 12.05 0C5.47 0 .12 5.35.12 11.93c0 2.1.55 4.15 1.6 5.96L.02 24l6.25-1.64a11.9 11.9 0 0 0 5.78 1.48h.01c6.58 0 11.93-5.35 11.93-11.93 0-3.19-1.24-6.18-3.47-8.43zM12.06 21.78h-.01a9.83 9.83 0 0 1-5.01-1.37l-.36-.21-3.71.98.99-3.62-.23-.37a9.84 9.84 0 1 1 8.33 4.59z"/><path d="M17.45 14.86c-.3-.15-1.77-.87-2.05-.97-.28-.1-.48-.15-.69.15-.2.3-.79.97-.97 1.17-.18.2-.36.22-.66.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.64-2.05-.17-.3-.02-.46.13-.61.13-.13.3-.36.45-.54.15-.18.2-.3.3-.5.1-.2.05-.38-.03-.53-.08-.15-.69-1.66-.94-2.27-.25-.6-.5-.52-.69-.53h-.58c-.2 0-.53.07-.81.38-.28.3-1.06 1.04-1.06 2.54 0 1.5 1.09 2.95 1.24 3.15.15.2 2.14 3.27 5.18 4.58.72.31 1.28.5 1.72.64.72.23 1.38.2 1.9.12.58-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.18-1.42-.08-.12-.28-.2-.58-.35z"/></svg>
+      <span>WhatsApp</span>
+    </a>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
