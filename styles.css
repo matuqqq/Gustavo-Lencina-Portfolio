@@ -277,7 +277,7 @@ body.cursor-hover .cursor-ring { width: 54px; height: 54px; background: rgba(255
 .dialog-close span { font-size: 28px; font-weight: 300; line-height: 1; }
 .dialog-close:hover { color: var(--bg); background: var(--accent-light); }
 .dialog-image { min-height: 600px; background: var(--bg); }
-.dialog-image img { width: 100%; height: 100%; object-fit: cover; }
+.dialog-image img { width: 100%; height: 100%; object-fit: contain; }
 .dialog-copy { display: flex; flex-direction: column; justify-content: center; padding: clamp(2rem, 5vw, 5rem); }
 .dialog-topline { display: flex; justify-content: space-between; gap: 1rem; margin-bottom: 2.5rem; color: var(--accent-light); font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; }
 .dialog-topline span:last-child { color: var(--text-faint); text-align: right; }
@@ -403,4 +403,29 @@ body.js-ready [data-reveal].is-visible { opacity: 1; transform: none; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
   body.js-ready [data-reveal] { opacity: 1; transform: none; }
+}
+
+/* Native feedback keeps the pointer visible while a dialog is in the top layer. */
+@media (hover: hover) and (pointer: fine) {
+  body.modal-open {
+    cursor: auto;
+  }
+
+  body.modal-open .project-dialog,
+  body.modal-open .project-dialog * {
+    cursor: auto;
+  }
+
+  body.modal-open .project-dialog button {
+    cursor: pointer;
+  }
+
+  body.modal-open .project-dialog::backdrop {
+    cursor: auto;
+  }
+
+  body.modal-open .cursor-dot,
+  body.modal-open .cursor-ring {
+    opacity: 0;
+  }
 }
