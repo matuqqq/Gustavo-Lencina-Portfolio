@@ -278,10 +278,10 @@ body.cursor-hover .cursor-ring { width: 54px; height: 54px; background: rgba(255
 .dialog-close:hover { color: var(--bg); background: var(--accent-light); }
 .dialog-image { display: grid; place-items: center; min-height: 0; height: 100%; overflow: hidden; background: var(--bg); }
 .dialog-image img { width: auto; height: auto; max-width: 100%; max-height: min(600px, calc(100dvh - 38px)); object-fit: contain; }
-.dialog-copy { display: flex; min-height: 0; flex-direction: column; justify-content: center; overflow: auto; padding: clamp(2rem, 5vw, 5rem); }
+.dialog-copy { display: flex; min-width: 0; min-height: 0; flex-direction: column; justify-content: center; overflow: auto; padding: clamp(2rem, 4vw, 4rem); }
 .dialog-topline { display: flex; justify-content: space-between; gap: 1rem; margin-bottom: 2.5rem; color: var(--accent-light); font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; }
 .dialog-topline span:last-child { color: var(--text-faint); text-align: right; }
-.dialog-copy h2 { max-width: 420px; margin: 0; font-family: 'Newsreader', Georgia, serif; font-size: clamp(3rem, 5vw, 5.6rem); font-weight: 400; letter-spacing: -0.06em; line-height: 0.85; }
+.dialog-copy h2 { max-width: 420px; min-width: 0; margin: 0; overflow-wrap: anywhere; font-family: 'Newsreader', Georgia, serif; font-size: clamp(3rem, 4.6vw, 5rem); font-weight: 400; letter-spacing: -0.06em; line-height: 0.85; }
 .dialog-copy > p { max-width: 390px; margin: 2rem 0 0; color: var(--text-muted); font-size: 15px; line-height: 1.7; }
 .dialog-nav { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-top: auto; padding-top: 3rem; border-top: 1px solid var(--line); }
 .dialog-nav button { min-height: 44px; padding: 0; border: 0; color: var(--text); background: transparent; cursor: pointer; font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; transition: color 180ms ease-out; }
